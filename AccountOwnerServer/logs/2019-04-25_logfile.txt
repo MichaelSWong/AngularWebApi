@@ -1,0 +1,26 @@
+2019-04-25 09:28:03.2218 ERROR Something went wrong inside CreateOwner action: An error occurred while updating the entries. See the inner exception for details.
+2019-04-25 09:28:22.2505 INFO Returned all owners from database.
+2019-04-25 09:35:42.0658 INFO Returned all owners from database.
+2019-04-25 09:36:02.8784 INFO Returned all owners from database.
+2019-04-25 09:44:05.7335 INFO Returned owner with id: 5e4cdc12-cdcd-4256-817b-57ffbc2eeb14
+2019-04-25 09:44:29.3671 INFO Returned owner with id: 5e4cdc12-cdcd-4256-817b-57ffbc2eeb14
+2019-04-25 09:44:52.5069 INFO Returned owner with id: f98e4d74-0f68-4aac-89fd-047f1aaca6b6
+2019-04-25 09:44:58.3358 INFO Returned all owners from database.
+2019-04-25 09:45:09.9364 INFO Returned owner with id: 24fd81f8-d58a-4bcc-9f35-dc6cd5641906
+2019-04-25 09:47:15.8773 INFO Returned owner with id: a3c1880c-674c-4d18-8f91-5d3608a2c937
+2019-04-25 09:48:54.0848 INFO Returned all owners from database.
+2019-04-25 09:49:08.6127 INFO Returned owner with id: a3c1880c-674c-4d18-8f91-5d3608a2c937
+2019-04-25 09:49:54.6097 INFO Returned owner with id: a3c1880c-674c-4d18-8f91-5d3608a2c937
+2019-04-25 09:53:57.3852 INFO Returned all owners from database.
+2019-04-25 09:58:47.7654 INFO Returned all owners from database.
+2019-04-25 09:59:24.9505 INFO Returned all owners from database.
+2019-04-25 09:59:45.8878 INFO Returned all owners from database.
+2019-04-25 10:04:32.4189 INFO Returned all owners from database.
+2019-04-25 10:04:51.9197 INFO Returned owner with id: 261e1685-cf26-494c-b17c-3546e65f5620
+2019-04-25 10:19:08.3483 INFO Returned all owners from database.
+2019-04-25 10:19:14.9239 INFO Returned all owners from database.
+2019-04-25 10:19:18.3845 INFO Returned owner with id: 261e1685-cf26-494c-b17c-3546e65f5620
+2019-04-25 10:21:30.2610 INFO Returned all owners from database.
+2019-04-25 10:23:32.8245 INFO Returned all owners from database.
+2019-04-25 11:00:06.5977 INFO Returned all owners from database.
+2019-04-25 11:11:07.7889 INFO Returned all owners from database.
