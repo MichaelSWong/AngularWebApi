@@ -1,4 +1,5 @@
 ﻿using AccountOwnerServer.Extensions;
+using Microsoft.AspNet.OData.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpOverrides;
@@ -29,6 +30,9 @@ namespace AccountOwnerServer
             services.ConfigureIISIntegration();
 
             services.ConfigureLoggerService();
+
+            // for Odata
+            services.AddOData();
 
             //services.ConfigureSQLContext(Configuration);
 
@@ -63,11 +67,18 @@ namespace AccountOwnerServer
 
             app.UseStaticFiles();
 
-            app.UseMvc();
+            // add route builder dependency injection
+            // enableing dependency injection to inject the services of odata
+            // without adding existing uris'
+            app.UseMvc(routeBuilder =>
+                {
+                    routeBuilder.EnableDependencyInjection();
+                    routeBuilder.Expand().Select().Count().OrderBy().Filter();
+                });
         }
     }
 }
 
 // appsettings json db string
 // "ConnectionString": {
- //   "DefaultConnection": "Server=localhost; Database=mydb; Trusted_Connection=True; MultipleActiveResultSets=true;"
+//   "DefaultConnection": "Server=localhost; Database=mydb; Trusted_Connection=True; MultipleActiveResultSets=true;"

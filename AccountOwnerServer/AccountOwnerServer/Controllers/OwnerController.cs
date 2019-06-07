@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Contracts;
 using Entities.Models;
 using Entities.Extensions;
+using Microsoft.AspNet.OData;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -25,6 +26,7 @@ namespace AccountOwnerServer.Controllers
         }
 
         [HttpGet]
+        [EnableQuery()]
         public IActionResult GetAllOwners()
         {
             try
